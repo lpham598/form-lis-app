@@ -18,46 +18,55 @@ This repository contains a simple form web application with a front end built us
 
    ```
 
-2. **Navigate to the Client Directory:**
+2. **Navigate to the Server Directory:**
 
    ```bash
-   cd form-lis-app/client
+   cd form-lis-app/server
    ```
 
-3. **Install Front End Dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-4. **Run the Front End Development Server:**
-
-   ```bash
-   npm run dev
-   ```
-
-5. **Open Another Terminal Window:**
-
-6. **Navigate to the Server Directory:**
-
-   ```bash
-   cd ../server
-   ```
-
-7. **Install Back End Dependencies:**
+3. **Install Back End Dependencies:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-8. **Run the Back End Server:**
+4. **Run the Back End Server:**
    On Mac:
+
    ```bash
    python3 app.py
    ```
+
    On Windows:
+
    ```bash
    python app.py
+   ```
+
+5. **Open Another Terminal Window:**
+
+6. **Navigate to the Client Directory:**
+
+   ```bash
+   cd form-lis-app/client
+   ```
+
+7. **Install Front End Dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+8. **Run the Front End Development Server:**
+
+   ```bash
+   npm run dev
+   ```
+
+9. **Access the application:**
+
+   ```bash
+   If your browser doesn't open automatically, navigate to http://localhost:5173/ in your web browser.
    ```
 
 ## Usage
