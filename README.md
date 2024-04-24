@@ -14,13 +14,14 @@ This repository contains a simple form web application with a front end built us
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/Vite-React-Flask.git
+   git clone https://github.com/`your-github-username`/form-lis-app.git
+
    ```
 
 2. **Navigate to the Client Directory:**
 
    ```bash
-   cd Vite-React-Flask/client
+   cd form-lis-app/client
    ```
 
 3. **Install Front End Dependencies:**
@@ -50,6 +51,7 @@ This repository contains a simple form web application with a front end built us
    ```
 
 8. **Run the Back End Server:**
+   On Mac:
    ```bash
    python3 app.py
    ```
