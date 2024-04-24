@@ -1,0 +1,57 @@
+.confirmation-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-container h1,
+.confirmation-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.confirmation-table,
+.previous-entries {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.confirmation-table th:first-child,
+.previous-entries th:first-child {
+  width: 50%;
+}
+
+.confirmation-table td:first-child,
+.previous-entries td:first-child {
+  width: 50%;
+}
+
+.confirmation-table th:nth-child(2),
+.previous-entries th:nth-child(2),
+.confirmation-table td:nth-child(2),
+.previous-entries td:nth-child(2) {
+  width: 60%;
+}
+
+.confirmation-table th,
+.previous-entries th,
+.confirmation-table td,
+.previous-entries td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.confirmation-table tbody tr:nth-child(odd),
+.previous-entries tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.previous-entries {
+  margin-top: 30px;
+}
