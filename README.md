@@ -15,7 +15,6 @@ This repository contains a simple form web application with a front end built us
 
    ```bash
    git clone https://github.com/`your-github-username`/form-lis-app.git
-
    ```
 
 2. **Navigate to the Server Directory:**
@@ -66,7 +65,13 @@ This repository contains a simple form web application with a front end built us
 9. **Access the application:**
 
    ```bash
-   If your browser doesn't open automatically, navigate to http://localhost:5173/ in your web browser.
+   If your browser does not open automatically, navigate to http://localhost:5173/ in your web browser.
+   ```
+
+10. **For adding multiple entries:**
+
+   ```bash
+   Renavigate to http://localhost:5173/ in your web browser to add another entry.
    ```
 
 ## Usage
